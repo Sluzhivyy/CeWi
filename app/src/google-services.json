@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "24006032886",
+    "project_id": "cewi-9a7bc",
+    "storage_bucket": "cewi-9a7bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24006032886:android:707c4bb41f135e11bb9bd7",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb1DWGfCOxDHauZ_rK8UHvjR6Cvou-vgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

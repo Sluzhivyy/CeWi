@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="152dp"
+        android:layout_height="74dp"
+        android:text="STALKER"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="italic"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.772"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="134dp"
+        android:layout_height="101dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/stalker" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="340dp"
+        android:layout_height="561dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Все началось 26 апреля 1986 года с аварии на Чернобыльской АЭС. Из-за выбросов радиации из 30-километровой зоны были эвакуированы люди. Так называемая «зона отчуждения» так же была огорожена и находилось под охраной. Это и дало начало испытаниям ученных в этой зоне. Безлюдная территория больших размеров — идеальные условия, при том, что несколько энергоблоков ЧАЭС еще находились в эксплуатации. Так была создана сеть лабораторий, обозначаемых буквой “X” (Часть которых игрок посещает в какой-либо части игры S.T.A.L.K.E.R). В этих лабораториях ученые изучали теорию о ноосфере — информационной оболочке Земли. В ходе их испытаний был создан мощный пси-излучатель. Так же в лабораториях изобретали новые виды вооружения, работающие по принципу пушки Гаусса. Данное оружие представленно в серии игр S.T.A.L.K.E.R, а в Зове Припяти, в одной из лабораторий (куда мы идем за документами по «Изделию №62» (то есть готовому образцу Гаусс-пушки)), можно найти прототип этого оружия, только гораздо больших размеров. 2 апреля 2006 года произошел второй взрыв, который был гораздо больше и мощнее первого. Причиной тому стали вышедшие из-под контроля испытания ученных, в следствии чего физические законы, а также флора и фауна «зоны» полностью изменилась. Вскоре военные оцепили «зону». Все попытки спасти тех, кто остался внутри — провалились. В течении следующих нескольких лет в зону посылались экспедиции ученых, большинство которых бесследно пропадало. Редкие выжившие сообщали о странных явлениях, а так же о страшных мутировавших животных, которые обладали удивительными способностями.Не смотря на то, что зона охранялась военными, вглубь «зоны» проникали люди, которые называли себя «сталкерами», людьми, рискующими собой ради аномальных образований («артефактов»), которые обладали различными свойствами, и продавали их за больше деньги.Вскоре, «сталкерство» стало набирать все больший размах. Внутри зоны стали образовываться группировки из людей со схожими целями. Но так же в зону сталу уходить экспедиции ученых под охранной военных. Но центральная часть Зоны была закрыта пси-излучателем, который был создан и ходе испытаний ученых. Члены «О-сознания» переоборудовали его в систему защиты центра Зоны, где до сих пор проводились исследования ноосферы. Все пути к центру охранялись военными, которые сдерживали толпы мутантов. Однако каждый сталкер мечтал попасть туда, ведь об этом месте ходило множество слухов, таких как «монолит» и «клондайк артефактов»."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

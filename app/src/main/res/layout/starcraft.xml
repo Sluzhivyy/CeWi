@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="139dp"
+        android:layout_height="192dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/starcraft" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="166dp"
+        android:layout_height="75dp"
+        android:text="StarCraft"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="353dp"
+        android:layout_height="481dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.859">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Примерно через 500 лет, эта вселенная включает в себя три основных расы; терраны (группа людей с планеты Земля, сосланных в cектор Копрулу 200 лет назад), протоссы (раса гуманоидов с передовыми технологиями) и зерги (постоянно мутирующие существа, имеющие коллективный разум). Война между двумя последними привела к массовым разрушениям среди всех трех рас. Терраны - Люди Земли попали под контроль Лиги Объединенных держав в 2229 году. Новое правительство верило в &quot;божественность человечества&quot; и стремилось устранить всех, кто подвергся генной инженерии или использовал несущественное кибернетическое оборудование. Правительственные силы также расправляются с преступниками, религиозными деятелями, политическими активистами и другими &quot;диссидентами&quot;.  Около сорока лет спустя ученый Доран Рут собрал тысячи таких заключенных на четырех огромных космических кораблях в рамках проекта колонизации. Заключенные помещены в криогенный сон и снабжены материалами, необходимыми для создания колоний, в том числе новым революционным ИИ &quot;Атлас&quot;. Тем не менее, корабли пронеслись прямо мимо их целевой планеты.  Во время путешествия &quot;Атлас&quot; обнаружил относительно высокий уровень мутаций, приводящих к проявлению псионных способностей у заключенных.  Потерянные корабли оказались в секторе Копрулу после трех десятилетий путешествий, примерно двести лет назад. Новые земные колонисты поселились на Тарсонисе, Мории и Умодже. Колонисты Тарсониса имели доступ к &quot;Атласу&quot; и должны были сформировать самую могущественную из трех цивилизаций – Конфедерацию.  Зерги - Зерги могут быстро восстановить свое здоровье. Зерги не используют технологии, а выращивают то, что им нужно. Целые колонии состоят из живых строении, которые располагаются на слизи.  Обладая чистотой эссенции, зерги изначально были расой существ, которые со временем могли «поглотить» генетику своих жертв. Они контролировались Сверхразумом, который разорвал контакт с зел-нага и в конечном итоге побудил Рой уничтожить его хозяев, похитив их знания. Рой зергов принял иерархию во главе с бессмертным Сверхразумом, бессмертными церебралами под ним и надзирателями. Современный Рой зергов возник как коллекция пород, способных жить в суровых условиях, и большинство из них были приспособлены к бою. Протоссы - Зел-нага создавали протоссов в течение тысячи лет, прежде чем они пришли в этот мир. Протоссы поклонялись им как богам и многому научились у них. Однако, поскольку индивидуальные псионические и научные достижения стали более важными, племена протоссов начали отделяться друг от друга, поскольку психическая связь протоссов исчезла. Теперь зел-нага чувствовали, что они слишком быстро продвинулись в эволюции протоссов и отказались от своего первого создания."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="159dp"
+        android:layout_height="155dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027"
+        app:srcCompat="@drawable/warhammer40k" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:text="Warhammer 40K"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="348dp"
+        android:layout_height="375dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Это 41 тысячелетие. Вот уже более ста веков Император недвижимо восседает на Золотом Троне Терры. Он Повелитель Человечества и правит миллионом миров благодаря мощи своих неисчислимых армий. Он — гниющий полутруп, чьи незримые муки продлеваются загадочными устройствами Тёмной Эры Технологий. Он — разлагающийся властелин Империума, которому каждый день приносят в жертву тысячу душ. На крови и плоти человеческой стоит сам Империум.  Даже в своём нынешнем состоянии, Император продолжает свою вечную бдительность. Могучие флоты пересекают кишащие демонами миазмы варпа, единственный путь между далёкими звёздами, их путь освещён светом Астрономикона, психическим проявлением воли Императора. Огромные армии сражаются во имя Его на бесчисленных мирах. Величайшие среди Его солдат — Адептус Астартес, космические десантники, супер-воины, созданные с помощью биоинженерии. Их братья по оружию — это полки Имперской Гвардии и бесчисленные планетарные силы обороны, всевидящая Инквизиция и техножрецы Адептус Механикус. Здесь названы лишь немногие. Но даже всего этого множества едва хватает, чтобы сдерживать вездесущие угрозы для человечества: пришельцев, еретиков, мутантов и гораздо, гораздо худшие вещи.  Быть человеком в такие времена — значит быть одним из бесчисленных миллиардов. Жить при самом жестоком и кровавом режиме, какой только можно вообразить. И перед вами история о тех временах. Если осмелитесь, вы сможете прочувствовать, какова жизнь во вселенной в эту тёмную и ужасную эпоху, где вы не найдёте покоя или надежды. Если вы хотите отправиться в это приключение, тогда настройтесь на него. Забудьте о силе технологий, науке и банальной человечности. Забудьте о напророченном прогрессе и общем взаимопонимании, ибо нет мира среди звёзд, а есть лишь вечность резни и бойни под хохот кровожадных богов.  Однако вселенная огромна, и, что бы ни случилось, никто не заметит вашего исчезновения..."
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
